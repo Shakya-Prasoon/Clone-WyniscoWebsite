@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <title>Wynisco Bootcamp</title>
+    <meta name="description" content="Wynisco offers new aspiring developers the ability to learn the front-end web development.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="top-bar">
+        <Span>Looking for a job on F1 or H1 Visa. Go to Wynisco.com <button>Visit</button></Span>
+    </div>
+    <h1 id="wynisco">WYNISCO</h1>
+    <section class = "headerImage">
+        <img src = "https://res.cloudinary.com/davc0hf56/image/upload/v1612530143/xrzczs8v5ekd5iibboko.png"  alt = "Wynisco Logo" width = "150" height = "150"> 
+    </section>
+
+    <input type="text" id="nameInput1" class="nameInput">
+    <input type="text" id="nameInput2" class="nameInput">
+
+    <div class="hero">
+        <img src="assets/images/mac.jpg" alt="heroImage">
+        <button onclick="onClickHandler()">Change Heading</button>
+    </div>
+    
+    <section class="infoDescription">
+        <h2 class="helvetica">Wynisco is a bootcamp which helps people to be able to make production ready applications primary using react.</h2>
+        <h4 class="arial">Wynisco mission is to get you placed rapidly, sometimes as quick as under 60 days . We are able to optimize these factors. We have perfected the formula over the years. First step is to apply for  the intensive bootcamp .If selected we will get you employment ready in 40 to 45 days .</h3>
+    </section>
+
+    
+    <i class="fa fa-car" style="font-size:60px;color:red;"></i>
+    <br />
+
+
+    <section class="embededVideo">
+        <iframe width="760" height="455" src="https://www.youtube.com/embed/rmt3TPbi3Os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+    </section>
+    
+    <section class="frontImage">
+        <img  src= "/assets/images/img1.jpeg" alt = "Code Picture" width="900" height="600">
+    </section>
+
+
+    <!-- <section class="studentList">
+        <h2>Students List</h2>
+        <div id="studentListTable">
+            <table border = 1>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email Address</th>
+                        <th>Phone Number</th>
+                        <th>Netlify Project Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td title="sachin@wynisco.com">Sachin Rajgire</td>
+                        <td>sachin@wynisco.com</td>
+                        <td>7328740188</td>
+                        <td><a href="https://reaction-sachin-rajgire.netlify.app/" target="_blank">https://reaction-sachin-rajgire.netlify.app/</a></td>
+                    </tr>
+                    <tr>
+                        <td title="shaivysh@gmail.com">Shaivy Tiwari</td>
+                        <td>shaivysh@gmail.com</td>
+                        <td>8577012594</td>
+                        <td><a href="https://reaction-shaivy-tiwari.netlify.app/#/" target="_blank">https://reaction-shaivy-tiwari.netlify.app/#/</a></td>
+                    </tr>
+                    <tr>
+                        <td title="arushi.gupta@yahoo.in">Arushi Gupta</td>
+                        <td>arushi.gupta@yahoo.in</td>
+                        <td>6178344710</td>
+                        <td><a href = "https://reaction-arushi-gupta.netlify.app/#/" target="_blank">https://reaction-arushi-gupta.netlify.app/#/</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section> -->
+
+    <section class="contactUsTeam">
+        <div class="team">
+            <h2>Team</h2>
+            <div class="teamimg">
+                <div class="box1">
+                  <h3>Mr. Bean</h3>
+                  <img
+                    src="https://meragor.com/files/styles//ava_800_800_wm/ava-strashnaya-091.jpg"
+                  />
+                </div>
+                <div class="box2">
+                  <h3>Steve Harvy</h3>
+                  <img
+                    src="https://i.pinimg.com/originals/fa/37/59/fa37598ea52735db399fdc539eb5cd40.png"
+                  />
+                </div>
+                <div class="box3">
+                    <h3>Mark Zuckerberg</h3>
+                    <img src="https://i.pinimg.com/736x/36/f6/2e/36f62e49f8920ed6b105426fa073669a.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="courseCurriculum">
+        <h2>Course Curriculum</h2>
+        <div id="courseCurriculum">
+            <ul style="text-align:left; width : 300px">
+                <li>Using Git as version control</li>
+                <li>Setting up Node Package Manager ( NPM)</li>
+                <li>Setting VSCode and its extension</li>
+                <li>Application Architecture</li>
+                <li>Chrome Dev Tools</li>
+                <li>PWAs</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="contactUs">
+        <h2>Contact Us</h2>
+        <div id="contactUsSection">
+            <table id='tableid' style="border: 1px solid darkslategrey;"> 
+                <tbody>
+                    <tr>
+                        <th><lable>Name</lable></th>
+                        <td><input type = "text" for = "name" size="47"></td>
+                    </tr>
+                    <tr>
+                        <th><lable>Message</lable></th>
+                        <td><textarea for="message" rows="4" cols="40"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" name="Submit">Submit</button></td>
+                    </tr>
+            
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- <section class="contactUs2">
+        <h2>Contact Us</h2>
+        <div id="contactUsSection">
+            <table id='tableid' style="border: 1px solid darkslategrey;"> 
+                <tbody>
+                    <tr>
+                        <th><lable>Name</lable></th>
+                        <td><input type = "text" for = "name" size="47"></td>
+                    </tr>
+                    <tr>
+                        <th><lable>Message</lable></th>
+                        <td><textarea for="message" rows="4" cols="40"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" name="Submit">Submit</button></td>
+                    </tr>
+            
+                </tbody>
+            </table>
+        </div>
+    </section> -->
+
+
+</body>
+</html>
